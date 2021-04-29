@@ -1,0 +1,10 @@
+import subprocess
+
+interface = input("interface>  ")
+mac = input("new mac of 12 char >  ")
+subprocess.call(["ifconfig", interface,"down"])
+subprocess.call(["ifconfig", interface,"hw","ether", mac])
+subprocess.call(["ifconfig", interface,"up"])
+print("[+]mac changed!! ")
+print("[+]mac changed to new mac address [+] ")
+print("[=]1202112")
