@@ -1,1 +1,3 @@
-# machanger
+# machanger update to change wifi adaptor to moniter mode and make the adaptor scan all the avilable network around you ..
+the tools is in upgrade process ...
+fell free to give advice
